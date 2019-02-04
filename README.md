@@ -38,16 +38,16 @@ fi
 4) download the repo:
 
 ```bash
-$ git clone https://github.com/fperakis/SwissFEL_BERNINA_20181820.git
+$ git clone git@github.com:fperakis/SwissFEL-Bernina.git
 ```
 
 -----------------------------
 To run in parallel:
 
 ```
-salloc -n 12 mpirun ./process.py -r 0069_droplets_10um_2mm -s 18000
+salloc -n 12 mpirun ./process.py -r 1 -s 18000
 ```
-with the desired run of choice.
+with the desired run number (-r integer).
 
 Right now there are some issues:
 * you have to specify the number of shots with `-s` or it processes zero shots (bug, will be fixed)
@@ -58,7 +58,7 @@ To submit batch jobs using Slurm do:
 
 ```bash
 $ cd scripts
-$ ./submit_jobs.sh 0000_test01 # submits run000_test01 with default parameters
+$ ./submit_jobs.sh 0001_test # submits run0001_test.json with default parameters
 ```
 
 For help how to run `submit_jobs.sh`, do: `$ ./submit_jobs.sh`
@@ -75,4 +75,10 @@ $ sbatch -p week -t 4-5:30:00 job.sh # to submit job with time limit of 4 days, 
 ```
 
 See here for more info about computer cluster analysis at SwissFEL:
+
 https://www.psi.ch/photon-science-data-services/offline-computing-facility-for-sls-and-swissfel-data-analysis
+
+and here for information related to:
+
+https://www.psi.ch/computing/ssh
+
