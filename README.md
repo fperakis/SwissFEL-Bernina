@@ -10,12 +10,18 @@ Inlcudes code to:
 -----------------------------
 Installation on a SwissFEL machine
 
-1) ssh to psi: 
-ssh -X ext-perakis_f@hop.psi.ch
+1) First connect to psi server: 
 
-2) ssh ra
+```bash
+$ ssh -X ext-perakis_f@hop.psi.ch
+```
 
-3) activate bernina conda environment
+2) Then connect to the ra-cluster:
+```bash 
+$ ssh ra
+```
+
+3) Make sure to activate bernina conda environment
 ```bash
 $ source /sf/bernina/bin/anaconda_env
 ```
@@ -35,7 +41,7 @@ if [ -f /etc/scripts/pmodules.sh ]; then
 fi
 ```
  
-4) download the repo:
+4) Then download the repo:
 
 ```bash
 $ git clone git@github.com:fperakis/SwissFEL-Bernina.git
