@@ -81,10 +81,8 @@ $ sbatch -p week -t 4-5:30:00 job.sh # to submit job with time limit of 4 days, 
 ```
 
 See here for more info about computer cluster analysis at SwissFEL:
-
 https://www.psi.ch/photon-science-data-services/offline-computing-facility-for-sls-and-swissfel-data-analysis
 
-and here for information related to:
-
+and here for information related to SSH:
 https://www.psi.ch/computing/ssh
 
