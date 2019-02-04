@@ -1,4 +1,4 @@
-# SwissFEL_BERNINA_20181820
+# SwissFEL-BERNINA
 
 Data analysis repository for Time-Resolved X-Ray Diffraction (TR-XRD) experiments at the Bernina intrument of SwissFEL 
 
