@@ -1,10 +1,10 @@
 # SwissFEL-BERNINA
 
-Data analysis repository for Time-Resolved X-Ray Diffraction (TR-XRD) experiments at the Bernina intrument of SwissFEL 
+Data analysis repository for Time-Resolved X-Ray Diffraction (TR-XRD) experiments at the Bernina instrument of SwissFEL, PSI. 
 
 Inlcudes code to:
 - read data from .json files
-- do angular integration
+- do angular integrations
 - calculate pump-probe signal
 
 -----------------------------
