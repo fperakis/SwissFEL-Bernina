@@ -13,7 +13,7 @@ Installation on a SwissFEL machine
 1) First connect to psi server: 
 
 ```bash
-$ ssh -X ext-perakis_f@hop.psi.ch
+$ ssh -X username@hop.psi.ch
 ```
 
 2) Then connect to the ra-cluster:
@@ -73,7 +73,7 @@ Useful Slurm commands:
 
 ```bash
 $ sinfo # check idle nodes
-$ squeue -u ext-sellberg_j # check jobs submitted by user 'ext-sellberg_j'
+$ squeue -u ext-user # check jobs submitted by user 'ext-user'
 $ scancel 1438285 # kill job with id 1438285
 $ sbatch job.sh # to submit job to the default partition, with allocation time of 1 hour
 $ sbatch -p week job.sh # to submit to the partition with longer allocation time (2 days if not specified)
