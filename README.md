@@ -44,7 +44,7 @@ fi
 4) Then download the repo:
 
 ```bash
-$ git clone git@github.com:fperakis/SwissFEL-Bernina.git
+$ git clone https://github.com/fperakis/SwissFEL-Bernina.git
 ```
 
 -----------------------------
